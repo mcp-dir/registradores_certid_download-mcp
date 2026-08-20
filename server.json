@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/registradores_certid_download-mcp",
+  "title": "Registradores (ARISP) Certidão: Download de Certidão Digital",
+  "description": "Registradores (ARISP) Certificate: Download de Certificate Digital, official-source lookup. Platform",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/registradores_certid_download-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_registradores_certid_download"
+    }
+  ]
+}
